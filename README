@@ -1,3 +1,5 @@
 Needed fixes and feedback:
 The checksum isn't quite correct with block sizes larger than 4
-Clear the outfile if it already exists
+
+A sample test run:
+./copy inTest.txt outTest.txt
