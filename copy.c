@@ -62,7 +62,7 @@ int main(int argc, char** argv){
    }
    
    //Make file for copying into
-   outFile = open(argv[2], O_WRONLY|O_CREAT, newPerms);
+   outFile = open(argv[2], O_WRONLY|O_CREAT|O_TRUNC, newPerms);
    if(outFile == -1){
          sprintf(writeBuf, "An error occured when opening/creating the outfile.\n");
          write(2, writeBuf, strlen(writeBuf));

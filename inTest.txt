@@ -1,4 +1,3 @@
-just some
-random data
-maybe even a newline or two
-How about that?
+Just some
+Stuff to test with
+A newline or two, perhaps
